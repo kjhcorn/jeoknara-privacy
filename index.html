@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>적나라 개인정보처리방침</title>
+<style>
+  :root {
+    --bg: #F7F8F7;
+    --surface: #FFFFFF;
+    --border: #E2E5E3;
+    --text: #2A2E2C;
+    --text-secondary: #6B7270;
+    --accent: #4F7C6E;
+    --accent-light: #DCE9E4;
+    --accent-strong: #3A5F54;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151918;
+      --surface: #1F2523;
+      --border: #2E3634;
+      --text: #E8ECE9;
+      --text-secondary: #9BA39F;
+      --accent: #7BB39F;
+      --accent-light: #26332E;
+      --accent-strong: #9BCFBC;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Malgun Gothic", sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  .mark {
+    width: 40px;
+    height: 40px;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 8px;
+  }
+  .updated {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .notice {
+    background: var(--accent-light);
+    border-radius: 14px;
+    padding: 16px 20px;
+    font-size: 14px;
+    color: var(--text);
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 40px 0 12px;
+    color: var(--text);
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--text);
+  }
+  ul {
+    padding-left: 20px;
+    margin: 8px 0;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    margin: 12px 0;
+  }
+  .card h3 {
+    font-size: 15px;
+    margin: 0 0 6px;
+    color: var(--accent-strong);
+  }
+  .card p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  .footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+  a { color: var(--accent-strong); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <svg class="mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M9 7c0-2.5 1.8-4.5 4.2-5l.3 1.4C11.9 3.8 11 5 11 6.3c0 .4.1.7.3 1 .5-.4 1.1-.6 1.8-.6 1.7 0 3 1.3 3 3s-1.4 3.1-3.1 3.1C10.8 12.8 9 10.9 9 7z"/>
+  </svg>
+
+  <h1>적나라 개인정보처리방침</h1>
+  <div class="updated">최종 수정일: 2026년 10월 1일</div>
+
+  <div class="notice">
+    이 문서는 적나라 앱이 실제로 데이터를 어떻게 다루는지 있는 그대로 설명합니다.
+    정식 서비스 출시 전에는 법률 전문가의 검토를 받는 것을 권장하며, 이 문서
+    자체가 법률 자문을 대체하지는 않습니다.
+  </div>
+
+  <h2>이 문서가 다루는 것</h2>
+  <p>
+    적나라(Jeoknara)는 실수를 기록하고 AI의 공감 응답과 재발방지 제안을 받는
+    개인용 기록 앱입니다. 이 문서는 앱을 사용하면서 만들어지는 정보가 어디에
+    저장되고, 어디로 전송되며, 어떻게 지울 수 있는지를 설명합니다.
+  </p>
+
+  <h2>기기에만 저장되는 정보</h2>
+  <p>다음 정보는 모두 사용자의 기기 안에만 저장됩니다. 별도 서버로 전송되거나 저장되지 않습니다.</p>
+  <ul>
+    <li>적은 기록의 원문, 발생 시점, 작성 시점</li>
+    <li>감정 상태(기록 직후 / 다음날 재측정)</li>
+    <li>AI가 분류한 실수 유형과 그 근거(상황·원인·결과 요약)</li>
+    <li>AI의 공감 응답, 재발방지 액션 제안과 그 결과</li>
+    <li>앱 사용 통계(기록 빈도, 되돌아보기 완료율 등) — 기능 개선 목적이며 기기 밖으로 나가지 않습니다</li>
+  </ul>
+  <p>
+    앱을 삭제하면 이 정보도 함께 삭제됩니다. 설정 화면에서 언제든 개별 기록 또는
+    전체 기록을 완전히(하드) 삭제할 수 있고, 삭제 전 JSON/텍스트/마크다운 형식으로
+    내보내기할 수 있습니다.
+  </p>
+
+  <h2>외부로 전송되는 정보</h2>
+  <div class="card">
+    <h3>OpenAI (필수 기능)</h3>
+    <p>
+      기록한 원문 텍스트가 공감 응답·유형 분류·재발방지 액션 제안을 생성하기 위해
+      OpenAI API로 전송됩니다. 음성으로 기록하면 녹음 파일도 글자로 바꾸기 위해
+      함께 전송됩니다. 전송된 내용은 응답을 만드는 목적으로만 사용되며, 이 앱이
+      OpenAI 서버에 별도의 계정이나 로그인 정보를 만들지는 않습니다.
+    </p>
+  </div>
+  <div class="card">
+    <h3>회복 속도 비교, 효과 있었던 액션 공유, 광장 (선택 기능)</h3>
+    <p>
+      아래 세 기능은 <strong>기본값이 꺼짐</strong>이며, 사용자가 설정에서 직접 켜거나
+      직접 "공유하기"를 눌러야만 작동합니다. 회복 속도 비교는 실수 유형 코드와
+      감정 변화량 숫자 하나만 익명으로 전송하며, 원본 기록 문장은 전송하지
+      않습니다. 광장과 액션 공유는 사용자가 직접 다시 작성한 짧은 글만 전송되며,
+      기록함의 원문이 자동으로 전송되지 않습니다. 이 기능들은 로그인이 없어
+      게시자를 앱 안에서 추적할 방법이 없습니다.
+    </p>
+  </div>
+
+  <h2>광고·추적</h2>
+  <p>이 앱은 광고를 표시하지 않으며, 제3자 분석·광고 추적 도구를 사용하지 않습니다.</p>
+
+  <h2>계정</h2>
+  <p>회원가입이나 로그인 기능이 없습니다. 모든 데이터는 사용자의 기기에 귀속됩니다.</p>
+
+  <h2>아동 개인정보</h2>
+  <p>이 앱은 만 14세 미만 아동을 대상으로 하지 않습니다.</p>
+
+  <h2>이 정책의 변경</h2>
+  <p>
+    정책이 바뀌면 이 페이지의 "최종 수정일"을 갱신합니다. 데이터를 다루는 방식이
+    실질적으로 바뀌는 경우, 다음 실행 시 앱 안에서도 안내합니다.
+  </p>
+
+  <h2>문의</h2>
+  <p>
+    개인정보 처리에 대해 궁금한 점이 있으면 아래 연락처로 문의해주세요.<br />
+    <strong><a href="mailto:kjhcorn@gmail.com">kjhcorn@gmail.com</a></strong>
+  </p>
+
+  <div class="footer">
+    적나라 (Jeoknara) · <a href="https://github.com/kjhcorn/jeoknara-mvp">GitHub 저장소</a>
+  </div>
+</div>
+</body>
+</html>
